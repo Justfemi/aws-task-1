@@ -1,8 +1,6 @@
-# aws-task-1
+# Create a static website and host it on s3 bucket but with public read policy assigned, using cloudfront for CDN.
 
-## details of assignment
-
-### My Solution
+## My Solution
 
 #### 1. Create an AWS account
 
