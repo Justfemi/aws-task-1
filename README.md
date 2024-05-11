@@ -21,8 +21,19 @@
 
 #### 7. Setup the distribution as follows:
 
+- Set the origin domain to the s3 bucket to be deployed
+![alt text](images/f.png)
 
+- The Origin access is set to Public by default but we'll be changing it to Origin access control settings (recommended)
 
+- Then select the s3 bucket we intend to deloy
+![alt text](images/g.png)
+
+- Enable security protections
+![alt text](images/h.png)
+
+- Set default root object to the landing page and create distribution
+![alt text](images/i.png)
 
 #### 8. Copy the policy by clicking the "Copy policy" button
 ![alt text](images/k.png)
@@ -37,7 +48,7 @@
 ![alt text](images/n.png)
 
 #### 12. Go back to the cloudfront distribution and copy the domain name generated.
-![alt text](images/k.png)
+![alt text](images/j.png)
 
 Static website hosted succesffully
 ![alt text](images/p.png)
